@@ -1,0 +1,168 @@
+* {
+  /* border: 1px solid red; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  width: 100%;
+
+  font-weight: lighter;
+}
+
+img {
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.8rem 3.5rem;
+}
+
+
+section:nth-child(odd) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* section 1 */
+.header {
+  height: 100vh;
+}
+.header-img {
+  background-image: url("./assets/0.jpg");
+  background-size: cover;
+}
+
+.header-content {
+  margin: 2rem;
+  padding: 5rem 0 2rem 3rem;
+}
+
+.header .letter-P {
+  height: 62px;
+}
+
+.header h1 {
+  font-size: 10rem;
+  margin-top: 8rem;
+}
+
+.header p {
+  margin-top: 5rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.header a {
+  /* WHY IS THIS NOT WORKING ?????? */
+  margin-top: 2rem;
+}
+.header a:hover {
+    filter: invert(1);
+    border: 1.1px solid white;
+  }
+
+/* END OF SECTION 1 */
+
+/* SECTION 2 */
+.about-company {
+  margin: 4rem auto 2rem auto;
+  width: 70%;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.about-company img {
+  width: 100%;
+}
+/* SEction 3  ABOUT PAGE*/
+.about-the-page {
+  margin: 2rem 6rem;
+}
+.about-the-page .content-3 {
+  padding-top: 6rem;
+}
+.about-the-page h1 {
+  margin: 2rem auto 0;
+}
+
+.about-the-page p {
+  margin: 2rem auto;
+}
+
+/* section 4 */
+.users-review {
+}
+.video {
+  height: 100vh;
+}
+.video iframe {
+  padding: 3rem 4rem;
+  width: 100%;
+  height: 100%;
+}
+.user-reviews-container {
+  display: flex;
+  padding: 6rem 6rem;
+}
+.user-reviews {
+  margin: auto 5rem;
+}
+.user-reviews p {
+  line-height: 2rem;
+}
+.user-info h3 {
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+.user-info h5 {
+  font-weight: lighter;
+}
+
+/* bottom */
+.download-form {
+  height: 100vh;
+}
+.bottom-img {
+  background-size: auto;
+}
+.bottom-content {
+  margin: 2rem;
+  padding: 5rem 0 2rem 3rem;
+}
+.bottom-content h1 {
+  font-size: 6rem;
+  margin-top: 8rem;
+  letter-spacing: -0.1em;
+  font-weight: 400;
+}
+
+.bottom-content p {
+  margin-top: 5rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}
+.download-form form input{
+    padding:1.5rem;
+    margin: auto 0.75rem;
+}
+.download-form form button{
+    padding: 1.5rem 3.5rem;
+}
+.download-form form button:hover{
+    cursor: pointer;
+}
+
+/* min=1024, min=768 max=1023, max=767 */
