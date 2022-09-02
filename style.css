@@ -78,27 +78,38 @@ section:nth-child(odd) {
 
 /* SECTION 2 */
 .about-company {
-  margin: 4rem auto 2rem auto;
-  width: 70%;
+ margin:auto 7rem;
   text-align: center;
   font-size: 1.75rem;
-}
 
+  border-bottom: 1.7px solid #bbb
+}
+.about-company div{
+  margin: 4rem auto 2rem auto;
+  width: 70%;
+
+}
 .about-company img {
   width: 100%;
 }
 /* SEction 3  ABOUT PAGE*/
 .about-the-page {
-  margin: 2rem 6rem;
+  margin: 2rem 7rem;
+  border-bottom: 1.9px solid #bbb
 }
 .about-the-page .content-3 {
   padding-top: 6rem;
+  margin-bottom: 5rem;
 }
 .about-the-page h1 {
   margin: 2rem auto 0;
 }
 
 .about-the-page p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: left;
   margin: 2rem auto;
 }
 
@@ -118,7 +129,7 @@ section:nth-child(odd) {
   padding: 6rem 6rem;
 }
 .user-reviews {
-  margin: auto 5rem;
+  margin: auto 6rem;
 }
 .user-reviews p {
   line-height: 2rem;
