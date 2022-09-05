@@ -30,11 +30,33 @@ a {
   padding: 1.8rem 3.5rem;
 }
 
-
 section:nth-child(odd) {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+/* Floating button */
+.floating_btn {
+  scale: 0.8;
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  font-size: 5rem;
+  border-radius: 60%;
+  text-align: center;
+  padding: 0.0rem 1rem 0.5rem;
+  position: fixed;
+
+  top: 85%;
+  left:92%;
+}
+.floating_btn:hover{
+  
+  
+  filter: invert(1);
+  
+}
+
 
 /* section 1 */
 .header {
@@ -70,24 +92,23 @@ section:nth-child(odd) {
   margin-top: 2rem;
 }
 .header a:hover {
-    filter: invert(1);
-    border: 1.1px solid white;
-  }
+  filter: invert(1);
+  border: 1.1px solid white;
+}
 
 /* END OF SECTION 1 */
 
 /* SECTION 2 */
 .about-company {
- margin:auto 7rem;
+  margin: auto 7rem;
   text-align: center;
   font-size: 1.75rem;
 
-  border-bottom: 1.7px solid #bbb
+  border-bottom: 1.7px solid #bbb;
 }
-.about-company div{
+.about-company div {
   margin: 4rem auto 2rem auto;
   width: 70%;
-
 }
 .about-company img {
   width: 100%;
@@ -95,7 +116,7 @@ section:nth-child(odd) {
 /* SEction 3  ABOUT PAGE*/
 .about-the-page {
   margin: 2rem 7rem;
-  border-bottom: 1.9px solid #bbb
+  border-bottom: 1.9px solid #bbb;
 }
 .about-the-page .content-3 {
   padding-top: 6rem;
@@ -115,6 +136,7 @@ section:nth-child(odd) {
 
 /* section 4 */
 .users-review {
+  display: contents;
 }
 .video {
   height: 100vh;
@@ -165,15 +187,15 @@ section:nth-child(odd) {
   line-height: 2rem;
   margin-bottom: 5rem;
 }
-.download-form form input{
-    padding:1.5rem;
-    margin: auto 0.75rem;
+.download-form form input {
+  padding: 1.5rem;
+  margin: auto 0.75rem;
 }
-.download-form form button{
-    padding: 1.5rem 3.5rem;
+.download-form form button {
+  padding: 1.5rem 3.5rem;
 }
-.download-form form button:hover{
-    cursor: pointer;
+.download-form form button:hover {
+  cursor: pointer;
 }
 
 /* min=1024, min=768 max=1023, max=767 */
